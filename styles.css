@@ -36,6 +36,10 @@ body {
   background-color: hsl(224, 36%, 15%);
   height: 80vh;
   margin-bottom: 1rem;
+  font-size: 36px;
+}
+.display :active{
+  cursor: none;
 }
 .btn-7 {
   grid-area: btn-7;
@@ -180,7 +184,13 @@ body {
   border-radius: 10px;
   align-content: center;
   box-shadow: inset 0px -4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: ease-in-out;
 }
+.button:active{
+  background-color:  bisque;
+}
+
 .btn-del,
 .reset {
   background-color: hsl(225, 21%, 49%);
