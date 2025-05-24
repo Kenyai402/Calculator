@@ -80,7 +80,14 @@ themeSwitch.addEventListener("click", () => {
     document.querySelectorAll(".button").forEach((btn) => {
       btn.style.backgroundColor = "hsl(45, 7%, 89%)";
       btn.style.color = "hsl(60, 10%, 19%)";
+      btn.onmouseover = function () {
+        this.style.backgroundColor = "hsl(0, 0%, 93%)";
+      };
+      btn.onmouseout = function () {
+        this.style.backgroundColor = "hsl(45, 7%, 89%)";
+      };
     });
+
     document.querySelector(".reset").style.backgroundColor =
       "hsl(185, 42%, 37%)";
     document.querySelector(".reset").style.color = "hsl(0, 0%, 100%)";
@@ -127,6 +134,12 @@ themeSwitch.addEventListener("click", () => {
     document.querySelectorAll(".button").forEach((btn) => {
       btn.style.backgroundColor = "hsl(281, 89%, 26%)";
       btn.style.color = "hsl(52, 100%, 62%)";
+      btn.onmouseover = function () {
+        this.style.backgroundColor = "hsl(285, 91%, 52%)";
+      };
+      btn.onmouseout = function () {
+        this.style.backgroundColor = "hsl(281, 89%, 26%)";
+      };
     });
 
     document.querySelector(".reset").style.backgroundColor =
@@ -171,6 +184,12 @@ themeSwitch.addEventListener("click", () => {
     document.querySelectorAll(".button").forEach((btn) => {
       btn.style.backgroundColor = "hsl(30, 25%, 89%)";
       btn.style.color = "hsl(221, 14%, 31%)";
+      btn.onmouseover = function () {
+        this.style.backgroundColor = " hsl(0, 0%, 100%)";
+      };
+      btn.onmouseout = function () {
+        this.style.backgroundColor = "hsl(30, 25%, 89%)";
+      };
     });
     document.querySelector(".reset").style.backgroundColor =
       "hsl(225, 21%, 49%)";
